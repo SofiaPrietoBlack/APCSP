@@ -1,0 +1,101 @@
+.b {
+	background-color:#FFE6E8;
+
+}
+
+.p {
+	font-family: Copperplate;
+	color: #6495ED;
+	font-size: 20px;
+
+
+}
+
+.h {
+	font-family: Copperplate;
+	color: #F4A460;
+	font-size: 30px;
+}
+
+.image {
+	width: 30%
+	float: left;
+	padding-right: 10px;
+}
+
+.size{
+	width: 40%;
+	border-radius: 200%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #99C68E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:#6495ED;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#9AFEFF;
+  color: #6495ED;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FFFFC2;
+  color: #6495ED;
+}
+
+
+.img {
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
